@@ -1,0 +1,82 @@
+body{
+	font-size: 1.6rem;
+	font-family: "Revans Bold";
+	background-image: url(image/white.jpg);
+	background-size: cover;
+}
+
+
+.hero::before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url(image/pg1.jpg);
+	background-size: cover;
+	background-position: center;
+	z-index: -1;
+	filter: grayscale(50%);
+}
+
+.hero{
+	min-height: 100vh;
+	/*margin-top: 300px;*/
+}
+
+.hero main{
+	margin-top: 300px;
+}
+
+.hero a{
+	
+	background-color: white;
+}
+
+.hero a:hover{
+	color: white;
+	background-color: green;
+}
+
+
+/*Responsive*/
+/*Laptop*/
+
+@media(max-width: 992px){
+
+	html{
+		font-size: 80%;
+	}
+
+}
+
+
+/*Tablet*/
+
+@media(max-width: 768px){
+
+	html{
+		font-size: 75%;
+	}
+
+
+}
+
+/*Phone*/
+
+@media(max-width: 576px){
+
+	html{
+		font-size: 70%;
+	}
+
+	.konten p{
+		font-size: 70%;
+	}
+
+	.konten img{
+		width: 160px;
+	}
+
+}

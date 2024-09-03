@@ -1,0 +1,115 @@
+
+.navbar img{
+	margin-right: 10px;
+}
+
+.navbar{
+  background-image: url(../../image/white.jpg);
+  background-size: cover;
+}
+
+
+.carousel{
+  padding-bottom: 30px;
+}
+
+.carousel .bg-1{
+  background-image: url(../../image/pg1.jpg);
+}
+.carousel .bg-2{
+  background-image: url(../../image/pg2.jpg);
+}
+.carousel .bg-3{
+  background-image: url(../../image/pg3.jpg);
+}
+
+
+.carousel-item{
+  height: 80vh;
+}
+
+.konten{
+  font-size: 1.5rem;
+  align-items: center;
+  background-image: url(../../image/white.jpg);
+}
+
+.motto{
+  height: 230px;
+  background-image: url(../../image/pg3.jpg);
+  background-position: center;
+  justify-content: center;
+  background-size: cover;
+  color: white;
+}
+
+.featurette{
+	margin: 10px;
+}
+
+.featurette-heading {
+  letter-spacing: -.05rem;
+}
+
+.gallery{
+  background-image: url(../../image/green.jpg);
+}
+
+.footer{
+  background-image: url(../../image/green.jpg);
+
+}
+
+
+@media (max-width: 576px) {
+  .carousel{
+    font-size: 70%;
+  }
+
+  .carousel a{
+    font-size: 90%;
+  }
+
+  .konten{
+    /*font-size: 60%;*/
+  }
+
+  .motto h1 {
+    font-size: 95%;
+  }
+
+  .konten img{
+    width: 180px;
+  }
+
+  .motto{
+    height: 120px;
+  }
+}
+
+@media(max-width: 992px){
+
+
+  .konten{
+    font-sizze: 115%;
+  }
+
+}
+
+/*@media (min-width: 40em) {
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}*/
